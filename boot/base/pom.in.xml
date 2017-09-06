@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>__VERSION__</version>
   <name>base</name>
-  <url>https://github.com/boot-clj/boot</url>
+  <url>http://127.0.0.1:8000/boot-clj/boot</url>
   <description>Boot Java application loader and class.</description>
   <scm>
     <connection>scm:git:git://github.com/boot-clj/boot.git</connection>

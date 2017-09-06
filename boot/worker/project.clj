@@ -8,7 +8,7 @@
   :aot :all
   :jar-exclusions [#"^clojure/core/"]
   :description  "Boot worker module–this is the worker pod for built-in tasks."
-  :url          "http://github.com/boot-clj/boot"
+  :url          "http://127.0.0.1:8000"
   :scm          {:url "https://github.com/boot-clj/boot.git" :dir "../../"}
   :repositories [["clojars"  {:url "https://clojars.org/repo" :creds :gpg :sign-releases false}]]
   :license      {:name "Eclipse Public License"

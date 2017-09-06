@@ -38,7 +38,7 @@ public class App {
     private static String                   appversion          = null;
     private static String                   channel             = "RELEASE";
     private static String                   booturl             = "http://boot-clj.com";
-    private static String                   githuburl           = "https://api.github.com/repos/boot-clj/boot/releases";
+    private static String                   githuburl           = "http://127.0.0.1:8000";
     private static boolean                  update_always       = false;
     private static ClojureRuntimeShim       aethershim          = null;
     private static HashMap<String, File[]>  depsCache           = null;

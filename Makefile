@@ -35,11 +35,9 @@ mkdirs:
 	mkdir -p bin
 
 bin/lein: mkdirs
-	wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O bin/lein
 	chmod 755 bin/lein
 
 bin/boot: mkdirs
-	curl -fsSLo bin/boot https://github.com/boot-clj/boot-bin/releases/download/latest/boot.sh
 	chmod 755 bin/boot
 
 deps: bin/lein bin/boot
